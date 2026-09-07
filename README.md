@@ -13,7 +13,7 @@ This repo contains "CRUD App", a simple product management application that supp
 ## Tech stack
 - Frontend: React, React Router, Tailwind CSS
 - Backend: Node.js, Express
-- Database: PostgreSQL (via Prisma/knex)
+- Database: MySQL
 - DevOps / CI: Docker, GitHub Actions
 - Testing: Jest, React Testing Library, Supertest
 
