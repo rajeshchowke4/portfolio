@@ -1,10 +1,10 @@
 # 👋 Hi, I'm Rajesh Chowke
 
-### Junior Full-Stack Developer
+### Junior Full-Stack Developer | AI & SRE Enthusiast
 
-I'm an aspiring Full-Stack Developer passionate about building web applications and learning modern software development practices.
+I'm an aspiring Full-Stack Developer passionate about building web applications, backend systems, REST APIs, databases, and AI-powered solutions.
 
-I enjoy working with **React, Node.js, Express, databases, REST APIs, Docker, and GitHub Actions**.
+I enjoy working with **React, JavaScript, Node.js, Express.js, Python, FastAPI, MongoDB, MySQL, REST APIs, AI Agents, Docker, GitHub Actions, and modern development tools**.
 
 ---
 
@@ -12,7 +12,7 @@ I enjoy working with **React, Node.js, Express, databases, REST APIs, Docker, an
 
 ## 1. CRUD Product Management App
 
-A full-stack product management application built to demonstrate my skills in **frontend development, backend APIs, database management, authentication, testing, and deployment**.
+A full-stack product management application built to demonstrate my skills in **frontend development, backend APIs, database management, authentication, testing, and CI/CD**.
 
 ### ✨ Features
 
@@ -41,6 +41,29 @@ A full-stack product management application built to demonstrate my skills in **
 * Supertest
 * Docker
 * GitHub Actions
+
+### 🏗️ Architecture
+
+```text
+┌──────────────────────┐
+│      React App       │
+│   Frontend / UI      │
+└──────────┬───────────┘
+           │
+           │ REST API
+           ▼
+┌──────────────────────┐
+│   Node.js + Express  │
+│      Backend         │
+└──────────┬───────────┘
+           │
+           │ SQL
+           ▼
+┌──────────────────────┐
+│        MySQL         │
+│       Database       │
+└──────────────────────┘
+```
 
 ---
 
@@ -72,6 +95,7 @@ A full-stack **Blood Donation Management System** developed using the **MERN Sta
 * HTML5
 * CSS3
 * React Router
+* Vite
 
 #### Backend
 
@@ -83,6 +107,7 @@ A full-stack **Blood Donation Management System** developed using the **MERN Sta
 
 * MongoDB
 * MongoDB Atlas
+* Mongoose
 
 #### Authentication & Security
 
@@ -96,7 +121,6 @@ A full-stack **Blood Donation Management System** developed using the **MERN Sta
 * GitHub
 * VS Code
 * npm
-* Vite
 
 ### 🏗️ Architecture
 
@@ -172,9 +196,171 @@ This project helped me gain practical experience in:
 
 ---
 
-## 🛠️ Overall Tech Stack
+## 3. ⚡ ResqOps
 
-### Frontend
+### Autonomous SRE Incident Response & Institutional Post-Mortem Copilot
+
+ResqOps is an AI-powered **SRE Incident Response and Post-Mortem Copilot** designed to investigate production incidents, recall historical incident knowledge, identify troubleshooting anti-patterns, and continuously learn from resolved incidents.
+
+The project uses **Vectorize Hindsight** to provide persistent memory to AI agents, allowing the system to learn from previous incidents and post-mortems.
+
+### ✨ Features
+
+* 🤖 Dual-agent incident investigation
+* 🧠 Historical incident knowledge recall
+* 🔄 Continuous learning from resolved incidents
+* 🚨 Production incident simulation
+* 🔍 Troubleshooting anti-pattern detection
+* 📚 Institutional knowledge preservation
+* 📋 AI-powered SRE runbooks
+* 📝 Automated post-mortem generation
+* ⚡ Mission Control interface
+* 🔌 Multiple LLM provider support
+* 💾 Hindsight memory with local fallback
+
+### 🛠️ Tech Stack
+
+#### AI & LLM
+
+* AI Agents
+* LLM Applications
+* Groq
+* Llama 3.3
+* Google Gemini
+* Vectorize Hindsight
+
+#### Backend
+
+* Python
+* FastAPI
+* REST API
+
+#### Frontend
+
+* JavaScript
+* HTML5
+* CSS3
+
+#### SRE & Incident Simulation
+
+* Kafka
+* PostgreSQL
+* Kubernetes
+* Redis
+* RabbitMQ
+* Production Incident Simulation
+* Post-Mortem Workflows
+
+### 🏗️ Architecture
+
+```text
+┌──────────────────────────────┐
+│     Production Telemetry     │
+│                              │
+│ Kafka / PostgreSQL / K8s     │
+│ Redis / RabbitMQ Scenarios   │
+└──────────────┬───────────────┘
+               │
+               │ Incident Alert
+               ▼
+┌──────────────────────────────┐
+│       FastAPI Backend        │
+│                              │
+│ Alert Processing             │
+│ Incident Investigation       │
+│ Agent Coordination           │
+└──────────────┬───────────────┘
+               │
+               ▼
+┌──────────────────────────────┐
+│    Vectorize Hindsight       │
+│       Memory Layer           │
+│                              │
+│ Recall Historical Incidents  │
+│ Store New Knowledge          │
+│ Learn From Post-Mortems      │
+└──────────────┬───────────────┘
+               │
+               ▼
+┌──────────────────────────────┐
+│        ResqOps AI Agent      │
+│                              │
+│ Incident Analysis            │
+│ Root Cause Investigation     │
+│ Anti-Pattern Detection       │
+│ Runbook Generation           │
+└──────────────┬───────────────┘
+               │
+               ▼
+┌──────────────────────────────┐
+│       SRE Engineer           │
+│                              │
+│ Resolve Incident             │
+│ Generate Post-Mortem         │
+└──────────────────────────────┘
+```
+
+### 🔄 Application Flow
+
+```text
+Production Incident
+        ↓
+Telemetry / Alert
+        ↓
+FastAPI Backend
+        ↓
+Incident Investigation
+        ↓
+Hindsight Memory Recall
+        ↓
+Historical Knowledge
+        ↓
+ResqOps AI Agent
+        ↓
+Root Cause Analysis
+        ↓
+SRE Runbook
+        ↓
+Incident Resolution
+        ↓
+Post-Mortem
+        ↓
+Hindsight Memory Retain
+        ↓
+Future Incident Learning
+```
+
+### 🎯 Incident Scenarios
+
+* 🔥 Kafka OOM
+* 🐘 PostgreSQL Deadlock
+* ☸️ Kubernetes Alpine CrashLoopBackOff
+* 🔴 Redis Replica Desync
+* 🐇 RabbitMQ Outage
+
+### 📌 Project Purpose
+
+The main goal of ResqOps is to demonstrate how AI agents with persistent memory can assist SRE teams during production incidents and preserve institutional knowledge from previous outages.
+
+This project helped me gain practical experience in:
+
+* Building AI-powered applications
+* Developing AI agents
+* Working with LLMs
+* Building FastAPI backends
+* Using persistent AI memory
+* Incident investigation workflows
+* SRE concepts
+* Post-mortem automation
+* REST API development
+* Production incident simulation
+* Continuous learning systems
+
+---
+
+# 🛠️ Overall Tech Stack
+
+## 🎨 Frontend
 
 * React.js
 * JavaScript
@@ -182,68 +368,121 @@ This project helped me gain practical experience in:
 * CSS3
 * React Router
 * Tailwind CSS
+* Vite
 
-### Backend
+## ⚙️ Backend
 
 * Node.js
 * Express.js
+* Python
+* FastAPI
 * REST APIs
 
-### Databases
+## 🗄️ Databases
 
 * MySQL
 * MongoDB
 * MongoDB Atlas
+* Mongoose
+* PostgreSQL
 
-### Authentication
+## 🤖 AI & LLM
+
+* AI Agents
+* LLM Applications
+* Groq
+* Llama 3.3
+* Google Gemini
+* Vectorize Hindsight
+* AI Memory
+* Knowledge Recall
+* Post-Mortem Learning
+
+## 🔐 Authentication & Security
 
 * JWT
+* Token-Based Authentication
+* Password Authentication
 * Role-Based Access Control
+* Input Validation
 
-### Testing
+## 🧪 Testing
 
 * Jest
 * React Testing Library
 * Supertest
+* Unit Testing
+* Integration Testing
+* API Testing
 
-### DevOps & Tools
+## 🚀 DevOps & SRE
 
 * Docker
 * Git
 * GitHub
 * GitHub Actions
+* CI/CD
+* Kubernetes
+* Kafka
+* Redis
+* RabbitMQ
+
+## 🧰 Development Tools
+
 * VS Code
 * npm
 * Vite
+* Git
+* GitHub
+
+## 📚 Development Concepts
+
+* Full-Stack Development
+* REST API Development
+* CRUD Operations
+* Database Management
+* Authentication & Authorization
+* API Integration
+* Responsive Web Development
+* Incident Response
+* SRE Workflows
+* Root Cause Investigation
+* Post-Mortem Automation
+* Continuous Learning Systems
 
 ---
 
-## 🏗️ CRUD Project Architecture
+# 📚 What I Learned
 
-```text
-┌──────────────────────┐
-│      React App       │
-│   Frontend / UI      │
-└──────────┬───────────┘
-           │
-           │ REST API
-           ▼
-┌──────────────────────┐
-│   Node.js + Express  │
-│      Backend         │
-└──────────┬───────────┘
-           │
-           │ SQL
-           ▼
-┌──────────────────────┐
-│        MySQL         │
-│       Database       │
-└──────────────────────┘
-```
+Through these projects, I gained practical experience in:
+
+* Building full-stack web applications
+* Designing and developing REST APIs
+* Working with MySQL, MongoDB and PostgreSQL
+* Connecting React applications with backend APIs
+* Implementing authentication and authorization
+* Implementing JWT-based authentication
+* Role-based access control
+* CRUD operations
+* Building responsive user interfaces
+* Writing automated tests
+* API testing
+* Using Git and GitHub effectively
+* Creating CI/CD workflows
+* Containerizing applications with Docker
+* Building FastAPI backends
+* Developing AI-powered applications
+* Working with AI agents and LLMs
+* Using persistent AI memory
+* Incident investigation workflows
+* SRE concepts
+* Production incident simulation
+* Post-mortem automation
+* Continuous learning systems
 
 ---
 
-## 💻 Getting Started — CRUD Project
+# 💻 Getting Started — CRUD Project
 
 ### 1. Clone the repository
 
@@ -287,31 +526,7 @@ http://localhost:3000
 
 ---
 
-## 🌐 Live Portfolio
-
-🚀 **[Visit My Live Portfolio](https://rajeshchowke4.github.io/portfolio/)**
-
----
-
-## 📸 Screenshots
-
-Add screenshots of your applications inside the `assets` folder.
-
-### CRUD Product Management App
-
-```markdown
-![CRUD App Screenshot](./assets/crud-screenshot.png)
-```
-
-### Blood Donation Management System
-
-```markdown
-![Blood Donation System Screenshot](./assets/blood-donation-screenshot.png)
-```
-
----
-
-## 🧪 Testing
+# 🧪 Testing
 
 The CRUD project includes unit and integration tests using:
 
@@ -327,7 +542,7 @@ npm test
 
 ---
 
-## ⚙️ CI/CD
+# ⚙️ CI/CD
 
 GitHub Actions is configured to automatically run tests when code is pushed to the `main` branch.
 
@@ -345,31 +560,39 @@ Build / Deploy
 
 ---
 
-## 📚 What I Learned
+# 🌐 Live Portfolio
 
-Through these projects, I learned:
-
-* How to build full-stack web applications
-* Designing and developing REST APIs
-* Working with MySQL and MongoDB
-* Connecting React applications with backend APIs
-* Implementing authentication
-* Implementing JWT authorization
-* Role-based access control
-* CRUD operations
-* Writing automated tests
-* Using Git and GitHub effectively
-* Creating CI/CD workflows
-* Containerizing applications with Docker
-* Deploying web applications
-* Building responsive user interfaces
+🚀 **[Visit My Live Portfolio](https://rajeshchowke4.github.io/portfolio/)**
 
 ---
 
-## 🔮 Future Improvements
+# 📸 Screenshots
+
+Add screenshots of your applications inside the `assets` folder.
+
+### CRUD Product Management App
+
+```markdown
+![CRUD App Screenshot](./assets/crud-screenshot.png)
+```
+
+### Blood Donation Management System
+
+```markdown
+![Blood Donation System Screenshot](./assets/blood-donation-screenshot.png)
+```
+
+### ResqOps
+
+```markdown
+![ResqOps Screenshot](./assets/resqops-screenshot.png)
+```
+
+---
+
+# 🔮 Future Improvements
 
 * [ ] Add pagination
-* [ ] Add role-based authentication
 * [ ] Add Cypress E2E testing
 * [ ] Improve UI/UX
 * [ ] Add advanced product filtering
@@ -378,39 +601,45 @@ Through these projects, I learned:
 * [ ] Add donor eligibility management
 * [ ] Improve Docker production setup
 * [ ] Add Kubernetes deployment
+* [ ] Expand AI incident scenarios
+* [ ] Improve SRE automation
+* [ ] Add more AI memory workflows
 
 ---
 
-## 👨‍💻 About Me
+# 👨‍💻 About Me
 
 **Rajesh Chowke**
-Aspiring Junior Full-Stack Developer
 
-I'm currently focused on improving my full-stack development skills and building real-world projects.
+Junior Full-Stack Developer | AI & SRE Enthusiast
+
+I'm currently focused on improving my full-stack development skills, exploring AI-powered applications, and building real-world projects.
 
 ### 📫 Contact
 
 * 📧 Email: [rajeshchouke4@example.com](mailto:rajeshchouke4@example.com)
-* 💼 LinkedIn: https://linkedin.com/in/rajeshchowke 
-* 📄 Resume: [View Resume](./resume.pdf) 
- 
---- 
- 
-## 📂 Other Projects 
- 
-Check out my GitHub repositories for more projects involving: 
- 
-* React 
-* JavaScript 
-* Node.js 
-* Express.js 
-* Python 
-* Flutter 
-* MongoDB 
-* MySQL 
- 
---- 
- 
-## 📄 License 
- 
+* 💼 LinkedIn: https://linkedin.com/in/rajeshchowke
+* 📄 Resume: [View Resume](./resume.pdf)
+
+---
+
+# 📂 Other Projects
+
+Check out my GitHub repositories for more projects involving:
+
+* React
+* JavaScript
+* Node.js
+* Express.js
+* Python
+* Flutter
+* Java
+* JDBC
+* MongoDB
+* MySQL
+
+---
+
+# 📄 License
+
 This project is licensed under the **MIT License**.
