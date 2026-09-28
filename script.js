@@ -4,18 +4,26 @@ const nav = document.getElementById("navLinks");
 // Mobile menu toggle
 menuBtn.addEventListener("click", () => {
     nav.style.display =
-        nav.style.display === "flex" ? "none" : "flex";
+        nav.style.display === "flex"
+            ? "none"
+            : "flex";
 });
 
-// Close mobile menu when a navigation link is clicked
-document.querySelectorAll("nav a").forEach((link) => {
+
+// Close mobile menu when navigation link is clicked
+document.querySelectorAll("#navLinks a").forEach((link) => {
+
     link.addEventListener("click", () => {
-        if (innerWidth <= 800) {
+
+        if (window.innerWidth <= 800) {
             nav.style.display = "none";
         }
+
     });
+
 });
 
-// Set current year in footer
+
+// Update footer year automatically
 document.getElementById("year").textContent =
     new Date().getFullYear();
