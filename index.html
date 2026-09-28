@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
 
@@ -10,501 +11,117 @@
 
     <meta
         name="description"
-        content="Rajesh Chowke - Junior Full-Stack Developer Portfolio"
+        content="Rajesh Chowke - Junior Full Stack Developer Portfolio"
     >
 
-    <meta
-        name="author"
-        content="Rajesh Chowke"
+    <title>Rajesh Chowke | Full Stack Developer</title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
     >
-
-    <title>Rajesh Chowke | Junior Full-Stack Developer</title>
-
-    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- =========================
-         NAVBAR
-    ========================== -->
+    <!-- ================= NAVBAR ================= -->
 
     <header class="navbar">
 
-        <a href="#home" class="brand">
-            Rajesh<span>.</span>
-        </a>
+        <div class="container nav-container">
 
-        <nav id="navLinks">
+            <a href="#home" class="logo">
+                Rajesh<span>.</span>
+            </a>
 
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#learning">Learning</a>
-            <a href="#contact">Contact</a>
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                aria-label="Toggle navigation"
+            >
+                ☰
+            </button>
 
-        </nav>
+            <nav id="navMenu">
 
-        <button
-            class="menu"
-            id="menuBtn"
-            aria-label="Toggle navigation"
-        >
-            ☰
-        </button>
+                <a href="#home">Home</a>
+
+                <a href="#about">About</a>
+
+                <a href="#skills">Skills</a>
+
+                <a href="#projects">Projects</a>
+
+                <a href="#learning">Learning</a>
+
+                <a href="#contact">Contact</a>
+
+            </nav>
+
+        </div>
 
     </header>
 
 
-    <!-- =========================
-         MAIN
-    ========================== -->
+    <!-- ================= HERO ================= -->
 
     <main>
 
-        <!-- =========================
-             HERO
-        ========================== -->
+        <section id="home" class="hero">
 
-        <section class="hero" id="home">
+            <div class="container hero-container">
 
-            <div class="hero-content">
+                <div class="hero-content">
 
-                <p class="eyebrow">
-                    JUNIOR FULL-STACK DEVELOPER
-                </p>
-
-                <h1>
-                    Hi, I'm
-                    <span>Rajesh Chowke</span>
-                </h1>
-
-                <p class="hero-text">
-                    I'm an aspiring Full-Stack Developer passionate
-                    about building web applications and learning
-                    modern software development practices.
-                </p>
-
-                <p class="hero-text">
-                    I enjoy working with
-                    <strong>React, Node.js, Express, databases,
-                    REST APIs, Docker, and GitHub Actions.</strong>
-                </p>
-
-                <div class="buttons">
-
-                    <a
-                        href="#projects"
-                        class="btn primary"
-                    >
-                        View Projects
-                    </a>
-
-                    <a
-                        href="https://github.com/rajeshchowke4"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="btn secondary"
-                    >
-                        GitHub
-                    </a>
-
-                    <a
-                        href="#contact"
-                        class="btn secondary"
-                    >
-                        Contact Me
-                    </a>
-
-                </div>
-
-                <div class="quick-links">
-
-                    <a
-                        href="https://github.com/rajeshchowke4"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        GitHub ↗
-                    </a>
-
-                    <a
-                        href="https://linkedin.com/in/rajeshchowke"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        LinkedIn ↗
-                    </a>
-
-                </div>
-
-            </div>
-
-
-            <!-- Developer Terminal -->
-
-            <div class="hero-card">
-
-                <div class="terminal-top">
-
-                    <i></i>
-                    <i></i>
-                    <i></i>
-
-                </div>
-
-                <pre><code><span class="pink">const</span> developer = {
-    name: <span class="green">"Rajesh Chowke"</span>,
-    role: <span class="green">"Junior Full-Stack Developer"</span>,
-
-    frontend: [
-        <span class="green">"React"</span>,
-        <span class="green">"JavaScript"</span>,
-        <span class="green">"HTML"</span>,
-        <span class="green">"CSS"</span>
-    ],
-
-    backend: [
-        <span class="green">"Node.js"</span>,
-        <span class="green">"Express"</span>
-    ],
-
-    databases: [
-        <span class="green">"MySQL"</span>,
-        <span class="green">"MongoDB"</span>
-    ],
-
-    tools: [
-        <span class="green">"Git"</span>,
-        <span class="green">"Docker"</span>,
-        <span class="green">"GitHub Actions"</span>
-    ],
-
-    learning: <span class="green">"Full-Stack Development"</span>
-};</code></pre>
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             ABOUT
-        ========================== -->
-
-        <section class="section" id="about">
-
-            <div class="section-heading">
-
-                <span>01.</span>
-
-                <h2>About Me</h2>
-
-            </div>
-
-            <div class="about-grid">
-
-                <div class="about-content">
-
-                    <p>
-                        I'm an aspiring Junior Full-Stack Developer
-                        passionate about creating useful, responsive,
-                        and modern web applications.
+                    <p class="hero-tag">
+                        JUNIOR FULL STACK DEVELOPER
                     </p>
 
-                    <p>
-                        I enjoy working with React, Node.js, Express,
-                        databases, REST APIs, Docker, GitHub Actions,
-                        and modern development tools.
+                    <h1>
+                        Building
+                        <span>Modern</span>
+                        Web Applications
+                    </h1>
+
+                    <p class="hero-description">
+                        I'm Rajesh Chowke, a junior full-stack developer
+                        passionate about building responsive applications,
+                        REST APIs, database-driven systems and AI-powered
+                        solutions.
                     </p>
 
-                    <p>
-                        I'm currently focused on improving my
-                        full-stack development skills by building
-                        real-world projects and learning modern
-                        software development practices.
-                    </p>
-
-                </div>
-
-
-                <div class="stats">
-
-                    <div class="stat-card">
-
-                        <strong>2+</strong>
-
-                        <span>
-                            Featured Projects
-                        </span>
-
-                    </div>
-
-                    <div class="stat-card">
-
-                        <strong>MERN</strong>
-
-                        <span>
-                            Stack
-                        </span>
-
-                    </div>
-
-                    <div class="stat-card">
-
-                        <strong>REST</strong>
-
-                        <span>
-                            API Development
-                        </span>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             SKILLS
-        ========================== -->
-
-        <section class="section" id="skills">
-
-            <div class="section-heading">
-
-                <span>02.</span>
-
-                <h2>Tech Stack</h2>
-
-            </div>
-
-            <div class="skill-grid">
-
-                <!-- Frontend -->
-
-                <article class="skill-card">
-
-                    <div class="skill-icon">
-                        ⚛️
-                    </div>
-
-                    <h3>Frontend</h3>
-
-                    <div class="tags">
-
-                        <span>React.js</span>
-                        <span>JavaScript</span>
-                        <span>HTML5</span>
-                        <span>CSS3</span>
-                        <span>React Router</span>
-                        <span>Tailwind CSS</span>
-
-                    </div>
-
-                </article>
-
-
-                <!-- Backend -->
-
-                <article class="skill-card">
-
-                    <div class="skill-icon">
-                        🟢
-                    </div>
-
-                    <h3>Backend</h3>
-
-                    <div class="tags">
-
-                        <span>Node.js</span>
-                        <span>Express.js</span>
-                        <span>REST API</span>
-
-                    </div>
-
-                </article>
-
-
-                <!-- Database -->
-
-                <article class="skill-card">
-
-                    <div class="skill-icon">
-                        🗄️
-                    </div>
-
-                    <h3>Databases</h3>
-
-                    <div class="tags">
-
-                        <span>MySQL</span>
-                        <span>MongoDB</span>
-                        <span>MongoDB Atlas</span>
-
-                    </div>
-
-                </article>
-
-
-                <!-- Authentication -->
-
-                <article class="skill-card">
-
-                    <div class="skill-icon">
-                        🔐
-                    </div>
-
-                    <h3>Authentication</h3>
-
-                    <div class="tags">
-
-                        <span>JWT</span>
-                        <span>Authentication</span>
-                        <span>Authorization</span>
-                        <span>RBAC</span>
-
-                    </div>
-
-                </article>
-
-
-                <!-- Testing -->
-
-                <article class="skill-card">
-
-                    <div class="skill-icon">
-                        🧪
-                    </div>
-
-                    <h3>Testing</h3>
-
-                    <div class="tags">
-
-                        <span>Jest</span>
-                        <span>React Testing Library</span>
-                        <span>Supertest</span>
-
-                    </div>
-
-                </article>
-
-
-                <!-- Tools -->
-
-                <article class="skill-card">
-
-                    <div class="skill-icon">
-                        🛠️
-                    </div>
-
-                    <h3>DevOps & Tools</h3>
-
-                    <div class="tags">
-
-                        <span>Git</span>
-                        <span>GitHub</span>
-                        <span>Docker</span>
-                        <span>GitHub Actions</span>
-                        <span>VS Code</span>
-                        <span>Vite</span>
-
-                    </div>
-
-                </article>
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             PROJECTS
-        ========================== -->
-
-        <section class="section" id="projects">
-
-            <div class="section-heading">
-
-                <span>03.</span>
-
-                <h2>Featured Projects</h2>
-
-            </div>
-
-
-            <!-- =========================
-                 PROJECT 1
-            ========================== -->
-
-            <article class="project-card">
-
-                <div class="project-main">
-
-                    <p class="label">
-                        PROJECT 01
-                    </p>
-
-                    <h3>
-                        CRUD Product Management App
-                    </h3>
-
-                    <p class="project-description">
-                        A full-stack product management application
-                        built to demonstrate frontend development,
-                        backend APIs, database management,
-                        authentication, testing, and deployment.
-                    </p>
-
-
-                    <h4>Features</h4>
-
-                    <div class="feature-list">
-
-                        <span>🔐 User Signup & Login</span>
-                        <span>📦 Create Products</span>
-                        <span>📋 View Products</span>
-                        <span>✏️ Update Products</span>
-                        <span>🗑️ Delete Products</span>
-                        <span>🔎 Search & Filter</span>
-                        <span>🔑 JWT Authentication</span>
-                        <span>✅ Validation</span>
-                        <span>🧪 Automated Testing</span>
-                        <span>🚀 CI/CD</span>
-
-                    </div>
-
-
-                    <h4>Technologies</h4>
-
-                    <div class="tags">
-
-                        <span>React</span>
-                        <span>React Router</span>
-                        <span>Tailwind CSS</span>
-                        <span>Node.js</span>
-                        <span>Express.js</span>
-                        <span>REST API</span>
-                        <span>MySQL</span>
-                        <span>Jest</span>
-                        <span>Docker</span>
-                        <span>GitHub Actions</span>
-
-                    </div>
-
-
-                    <div class="buttons">
+                    <div class="hero-buttons">
 
                         <a
-                            href="https://github.com/rajeshchowke4/curd_app"
-                            target="_blank"
-                            rel="noopener noreferrer"
+                            href="#projects"
                             class="btn primary"
                         >
-                            View Repository ↗
+                            View My Projects
+                        </a>
+
+                        <a
+                            href="#contact"
+                            class="btn secondary"
+                        >
+                            Contact Me
+                        </a>
+
+                    </div>
+
+                    <div class="hero-socials">
+
+                        <a
+                            href="https://github.com/rajeshchowke4"
+                            target="_blank"
+                        >
+                            GitHub
+                        </a>
+
+                        <a
+                            href="https://www.linkedin.com/"
+                            target="_blank"
+                        >
+                            LinkedIn
                         </a>
 
                     </div>
@@ -512,673 +129,991 @@
                 </div>
 
 
-                <!-- Architecture -->
+                <div class="hero-card">
 
-                <div class="architecture">
+                    <div class="terminal">
 
-                    <h4>
-                        Project Architecture
-                    </h4>
+                        <div class="terminal-header">
 
-                    <div class="arch-box">
+                            <span></span>
+                            <span></span>
+                            <span></span>
 
-                        <strong>React App</strong>
+                        </div>
 
-                        <small>
-                            Frontend / UI
-                        </small>
+                        <div class="terminal-body">
+
+                            <p>
+                                <span class="code-purple">
+                                    const
+                                </span>
+                                developer =
+                                <span class="code-green">
+                                    {
+                                </span>
+                            </p>
+
+                            <p class="indent">
+                                name:
+                                <span class="code-yellow">
+                                    "Rajesh Chowke"
+                                </span>,
+                            </p>
+
+                            <p class="indent">
+                                role:
+                                <span class="code-yellow">
+                                    "Full Stack Developer"
+                                </span>,
+                            </p>
+
+                            <p class="indent">
+                                stack:
+                                <span class="code-yellow">
+                                    "MERN + Java + Python"
+                                </span>,
+                            </p>
+
+                            <p class="indent">
+                                passion:
+                                <span class="code-yellow">
+                                    "Building"
+                                </span>
+                            </p>
+
+                            <p>
+                                <span class="code-green">
+                                    };
+                                </span>
+                            </p>
+
+                            <p class="terminal-cursor">
+                                _
+                            </p>
+
+                        </div>
 
                     </div>
 
-                    <div class="arrow">
-                        REST API ↓
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section id="about" class="section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span>
+                        01.
+                    </span>
+
+                    <h2>
+                        About Me
+                    </h2>
+
+                </div>
+
+                <div class="about-grid">
+
+                    <div class="about-text">
+
+                        <p>
+                            I am a junior full-stack developer interested
+                            in creating practical and scalable software
+                            applications.
+                        </p>
+
+                        <p>
+                            I work with modern frontend technologies,
+                            backend APIs, databases and development tools.
+                            I enjoy transforming ideas into functional
+                            web applications.
+                        </p>
+
+                        <p>
+                            Currently, I am strengthening my knowledge of
+                            REST API development, authentication,
+                            databases, automated testing, CI/CD and
+                            AI-powered applications.
+                        </p>
+
                     </div>
 
-                    <div class="arch-box">
+                    <div class="about-stats">
 
-                        <strong>
-                            Node.js + Express
-                        </strong>
+                        <div class="stat-card">
 
-                        <small>
+                            <strong>
+                                3+
+                            </strong>
+
+                            <span>
+                                Projects
+                            </span>
+
+                        </div>
+
+                        <div class="stat-card">
+
+                            <strong>
+                                10+
+                            </strong>
+
+                            <span>
+                                Technologies
+                            </span>
+
+                        </div>
+
+                        <div class="stat-card">
+
+                            <strong>
+                                ∞
+                            </strong>
+
+                            <span>
+                                Learning
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SKILLS ================= -->
+
+        <section id="skills" class="section skills-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span>
+                        02.
+                    </span>
+
+                    <h2>
+                        Skills & Technologies
+                    </h2>
+
+                </div>
+
+                <div class="skills-grid">
+
+                    <div class="skill-card">
+
+                        <div class="skill-icon">
+                            ⚛
+                        </div>
+
+                        <h3>
+                            Frontend
+                        </h3>
+
+                        <div class="tags">
+
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>React</span>
+                            <span>React Router</span>
+                            <span>Tailwind CSS</span>
+                            <span>Vite</span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-card">
+
+                        <div class="skill-icon">
+                            ⚙
+                        </div>
+
+                        <h3>
                             Backend
-                        </small>
+                        </h3>
+
+                        <div class="tags">
+
+                            <span>Node.js</span>
+                            <span>Express.js</span>
+                            <span>Java</span>
+                            <span>Python</span>
+                            <span>FastAPI</span>
+                            <span>REST API</span>
+
+                        </div>
 
                     </div>
 
-                    <div class="arrow">
-                        SQL ↓
-                    </div>
 
-                    <div class="arch-box">
+                    <div class="skill-card">
 
-                        <strong>MySQL</strong>
+                        <div class="skill-icon">
+                            🗄
+                        </div>
 
-                        <small>
+                        <h3>
                             Database
-                        </small>
+                        </h3>
+
+                        <div class="tags">
+
+                            <span>MySQL</span>
+                            <span>MongoDB</span>
+                            <span>MongoDB Atlas</span>
+                            <span>Mongoose</span>
+                            <span>JDBC</span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-card">
+
+                        <div class="skill-icon">
+                            🛠
+                        </div>
+
+                        <h3>
+                            Tools & DevOps
+                        </h3>
+
+                        <div class="tags">
+
+                            <span>Git</span>
+                            <span>GitHub</span>
+                            <span>Docker</span>
+                            <span>GitHub Actions</span>
+                            <span>VS Code</span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-card">
+
+                        <div class="skill-icon">
+                            🤖
+                        </div>
+
+                        <h3>
+                            AI & SRE
+                        </h3>
+
+                        <div class="tags">
+
+                            <span>AI Agents</span>
+                            <span>LLM</span>
+                            <span>Groq</span>
+                            <span>Gemini</span>
+                            <span>Hindsight</span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-card">
+
+                        <div class="skill-icon">
+                            🧪
+                        </div>
+
+                        <h3>
+                            Testing
+                        </h3>
+
+                        <div class="tags">
+
+                            <span>Jest</span>
+                            <span>RTL</span>
+                            <span>Supertest</span>
+                            <span>API Testing</span>
+
+                        </div>
 
                     </div>
 
                 </div>
 
-            </article>
+            </div>
+
+        </section>
 
 
-            <!-- =========================
-                 PROJECT 2
-            ========================== -->
+        <!-- ================= PROJECTS ================= -->
 
-            <article class="project-card project-two">
+        <section id="projects" class="section">
 
-                <div class="project-main">
+            <div class="container">
 
-                    <p class="label">
-                        PROJECT 02
-                    </p>
+                <div class="section-heading">
+
+                    <span>
+                        03.
+                    </span>
+
+                    <h2>
+                        Featured Projects
+                    </h2>
+
+                </div>
+
+
+                <div class="projects-container">
+
+
+                    <!-- ================= PROJECT 1 ================= -->
+
+                    <article class="project-card">
+
+                        <div class="project-header">
+
+                            <div>
+
+                                <span class="project-number">
+                                    PROJECT 01
+                                </span>
+
+                                <h3>
+                                    CRUD Product Management App
+                                </h3>
+
+                                <p class="project-subtitle">
+                                    Full Stack Product Management System
+                                </p>
+
+                            </div>
+
+                            <span class="project-badge">
+                                FULL STACK
+                            </span>
+
+                        </div>
+
+
+                        <p class="project-description">
+                            A full-stack product management application
+                            with authentication, CRUD operations,
+                            product search, filtering, validation and
+                            automated testing.
+                        </p>
+
+
+                        <div class="project-grid">
+
+                            <div>
+
+                                <h4>
+                                    Features
+                                </h4>
+
+                                <ul class="feature-list">
+
+                                    <li>
+                                        User signup and login
+                                    </li>
+
+                                    <li>
+                                        Product CRUD operations
+                                    </li>
+
+                                    <li>
+                                        Search and filtering
+                                    </li>
+
+                                    <li>
+                                        Token-based authentication
+                                    </li>
+
+                                    <li>
+                                        Input validation
+                                    </li>
+
+                                    <li>
+                                        Automated testing
+                                    </li>
+
+                                    <li>
+                                        GitHub Actions CI/CD
+                                    </li>
+
+                                </ul>
+
+                            </div>
+
+
+                            <div>
+
+                                <h4>
+                                    Technology
+                                </h4>
+
+                                <div class="tags">
+
+                                    <span>React</span>
+                                    <span>React Router</span>
+                                    <span>Tailwind CSS</span>
+                                    <span>Node.js</span>
+                                    <span>Express.js</span>
+                                    <span>REST API</span>
+                                    <span>MySQL</span>
+                                    <span>Jest</span>
+                                    <span>Docker</span>
+                                    <span>GitHub Actions</span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="architecture">
+
+                            <span>React</span>
+
+                            <b>→</b>
+
+                            <span>REST API</span>
+
+                            <b>→</b>
+
+                            <span>Node / Express</span>
+
+                            <b>→</b>
+
+                            <span>MySQL</span>
+
+                        </div>
+
+
+                        <div class="project-buttons">
+
+                            <a
+                                href="https://github.com/rajeshchowke4/crud_app"
+                                target="_blank"
+                                class="btn primary"
+                            >
+                                View on GitHub
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- ================= PROJECT 2 ================= -->
+
+                    <article class="project-card">
+
+                        <div class="project-header">
+
+                            <div>
+
+                                <span class="project-number">
+                                    PROJECT 02
+                                </span>
+
+                                <h3>
+                                    🩸 Blood Donation Management System
+                                </h3>
+
+                                <p class="project-subtitle">
+                                    MERN-Based Blood Donation Platform
+                                </p>
+
+                            </div>
+
+                            <span class="project-badge green-badge">
+                                MERN
+                            </span>
+
+                        </div>
+
+
+                        <p class="project-description">
+                            A MERN stack platform connecting blood donors
+                            and recipients with authentication, donor
+                            management, blood requests, dashboards and
+                            role-based administration.
+                        </p>
+
+
+                        <div class="project-grid">
+
+                            <div>
+
+                                <h4>
+                                    Features
+                                </h4>
+
+                                <ul class="feature-list">
+
+                                    <li>
+                                        User registration and login
+                                    </li>
+
+                                    <li>
+                                        Secure authentication
+                                    </li>
+
+                                    <li>
+                                        Donor management
+                                    </li>
+
+                                    <li>
+                                        Blood donation requests
+                                    </li>
+
+                                    <li>
+                                        Search and filter donors
+                                    </li>
+
+                                    <li>
+                                        Request management
+                                    </li>
+
+                                    <li>
+                                        Admin dashboard
+                                    </li>
+
+                                    <li>
+                                        Role-based access control
+                                    </li>
+
+                                </ul>
+
+                            </div>
+
+
+                            <div>
+
+                                <h4>
+                                    Technology
+                                </h4>
+
+                                <div class="tags">
+
+                                    <span>React.js</span>
+                                    <span>JavaScript</span>
+                                    <span>HTML5</span>
+                                    <span>CSS3</span>
+                                    <span>React Router</span>
+                                    <span>Node.js</span>
+                                    <span>Express.js</span>
+                                    <span>MongoDB</span>
+                                    <span>MongoDB Atlas</span>
+                                    <span>Mongoose</span>
+                                    <span>JWT</span>
+                                    <span>Vite</span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="architecture">
+
+                            <span>React</span>
+
+                            <b>→</b>
+
+                            <span>REST API</span>
+
+                            <b>→</b>
+
+                            <span>Node / Express</span>
+
+                            <b>→</b>
+
+                            <span>Mongoose</span>
+
+                            <b>→</b>
+
+                            <span>MongoDB</span>
+
+                        </div>
+
+
+                        <div class="project-buttons">
+
+                            <a
+                                href="https://github.com/rajeshchowke4/blood-donation-system"
+                                target="_blank"
+                                class="btn primary"
+                            >
+                                View on GitHub
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- ================= PROJECT 3 ================= -->
+
+                    <article class="project-card">
+
+                        <div class="project-header">
+
+                            <div>
+
+                                <span class="project-number">
+                                    PROJECT 03
+                                </span>
+
+                                <h3>
+                                    ⚡ ResqOps
+                                </h3>
+
+                                <p class="project-subtitle">
+                                    Autonomous SRE Incident Response &
+                                    Institutional Post-Mortem Copilot
+                                </p>
+
+                            </div>
+
+                            <span class="project-badge purple-badge">
+                                AI / SRE
+                            </span>
+
+                        </div>
+
+
+                        <p class="project-description">
+                            An AI-powered SRE incident response system
+                            that uses historical incident knowledge to
+                            investigate production issues, detect
+                            troubleshooting anti-patterns and learn from
+                            resolved incidents.
+                        </p>
+
+
+                        <div class="project-grid">
+
+                            <div>
+
+                                <h4>
+                                    Features
+                                </h4>
+
+                                <ul class="feature-list">
+
+                                    <li>
+                                        Dual-agent incident investigation
+                                    </li>
+
+                                    <li>
+                                        Historical incident recall
+                                    </li>
+
+                                    <li>
+                                        Anti-pattern detection
+                                    </li>
+
+                                    <li>
+                                        Continuous post-mortem learning
+                                    </li>
+
+                                    <li>
+                                        AI-powered SRE runbooks
+                                    </li>
+
+                                    <li>
+                                        Production incident scenarios
+                                    </li>
+
+                                </ul>
+
+                            </div>
+
+
+                            <div>
+
+                                <h4>
+                                    Technology
+                                </h4>
+
+                                <div class="tags">
+
+                                    <span>Python</span>
+                                    <span>FastAPI</span>
+                                    <span>AI Agents</span>
+                                    <span>Groq</span>
+                                    <span>Llama 3.3</span>
+                                    <span>Google Gemini</span>
+                                    <span>Vectorize Hindsight</span>
+                                    <span>REST API</span>
+                                    <span>JavaScript</span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="architecture">
+
+                            <span>Telemetry</span>
+
+                            <b>→</b>
+
+                            <span>FastAPI</span>
+
+                            <b>→</b>
+
+                            <span>Hindsight Memory</span>
+
+                            <b>→</b>
+
+                            <span>AI SRE Agent</span>
+
+                            <b>→</b>
+
+                            <span>Runbook</span>
+
+                        </div>
+
+
+                        <div class="project-buttons">
+
+                            <a
+                                href="https://github.com/rajeshchowke4/INCIDENT-RESPONSE-AGENT"
+                                target="_blank"
+                                class="btn primary"
+                            >
+                                View on GitHub
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= LEARNING ================= -->
+
+        <section id="learning" class="section learning-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span>
+                        04.
+                    </span>
+
+                    <h2>
+                        Currently Learning
+                    </h2>
+
+                </div>
+
+
+                <div class="learning-grid">
+
+                    <div class="learning-card">
+
+                        <span class="learning-icon">
+                            🔐
+                        </span>
+
+                        <h3>
+                            Authentication
+                        </h3>
+
+                        <p>
+                            JWT authentication, authorization and
+                            role-based access control.
+                        </p>
+
+                    </div>
+
+
+                    <div class="learning-card">
+
+                        <span class="learning-icon">
+                            🔌
+                        </span>
+
+                        <h3>
+                            REST APIs
+                        </h3>
+
+                        <p>
+                            Designing scalable APIs and integrating
+                            frontend and backend systems.
+                        </p>
+
+                    </div>
+
+
+                    <div class="learning-card">
+
+                        <span class="learning-icon">
+                            🧪
+                        </span>
+
+                        <h3>
+                            Automated Testing
+                        </h3>
+
+                        <p>
+                            Unit, integration and API testing for
+                            reliable applications.
+                        </p>
+
+                    </div>
+
+
+                    <div class="learning-card">
+
+                        <span class="learning-icon">
+                            🚀
+                        </span>
+
+                        <h3>
+                            CI/CD
+                        </h3>
+
+                        <p>
+                            Building automated development and
+                            deployment workflows.
+                        </p>
+
+                    </div>
+
+
+                    <div class="learning-card">
+
+                        <span class="learning-icon">
+                            🤖
+                        </span>
+
+                        <h3>
+                            AI Applications
+                        </h3>
+
+                        <p>
+                            Exploring AI agents, LLM integrations and
+                            intelligent developer tools.
+                        </p>
+
+                    </div>
+
+
+                    <div class="learning-card">
+
+                        <span class="learning-icon">
+                            ☁
+                        </span>
+
+                        <h3>
+                            Cloud & DevOps
+                        </h3>
+
+                        <p>
+                            Learning Docker, deployment workflows and
+                            production systems.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section id="contact" class="section contact-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span>
+                        05.
+                    </span>
+
+                    <h2>
+                        Let's Connect
+                    </h2>
+
+                </div>
+
+
+                <div class="contact-content">
 
                     <h3>
-                        🩸 Blood Donation Management System
+                        Have a project or opportunity?
                     </h3>
 
-                    <p class="project-description">
-                        A full-stack Blood Donation Management System
-                        developed using the MERN Stack. The application
-                        provides a centralized platform for managing
-                        users, donors, blood requests, authentication,
-                        and donation-related information.
+                    <p>
+                        I'm always interested in learning, building
+                        projects and connecting with other developers.
                     </p>
 
 
-                    <h4>Features</h4>
-
-                    <div class="feature-list">
-
-                        <span>👤 User Registration</span>
-                        <span>🔐 Secure Authentication</span>
-                        <span>🩸 Donor Management</span>
-                        <span>📋 Blood Requests</span>
-                        <span>🔎 Search & Filter</span>
-                        <span>🏥 Request Management</span>
-                        <span>📊 Dashboard</span>
-                        <span>👨‍💼 Admin Management</span>
-                        <span>🔑 Role-Based Access</span>
-                        <span>📱 Responsive UI</span>
-
-                    </div>
-
-
-                    <h4>Tech Stack</h4>
-
-                    <div class="tags">
-
-                        <span>React.js</span>
-                        <span>JavaScript</span>
-                        <span>HTML5</span>
-                        <span>CSS3</span>
-                        <span>React Router</span>
-                        <span>Node.js</span>
-                        <span>Express.js</span>
-                        <span>REST API</span>
-                        <span>MongoDB</span>
-                        <span>MongoDB Atlas</span>
-                        <span>Mongoose</span>
-                        <span>JWT</span>
-                        <span>Vite</span>
-
-                    </div>
-
-
-                    <div class="buttons">
+                    <div class="contact-buttons">
 
                         <a
-                            href="https://github.com/rajeshchowke4/blood-donation-system"
-                            target="_blank"
-                            rel="noopener noreferrer"
+                            href="mailto:your-email@example.com"
                             class="btn primary"
                         >
-                            View on GitHub ↗
+                            Email Me
+                        </a>
+
+                        <a
+                            href="https://github.com/rajeshchowke4"
+                            target="_blank"
+                            class="btn secondary"
+                        >
+                            GitHub
+                        </a>
+
+                        <a
+                            href="https://www.linkedin.com/"
+                            target="_blank"
+                            class="btn secondary"
+                        >
+                            LinkedIn
                         </a>
 
                     </div>
-
-                </div>
-
-
-                <!-- Architecture -->
-
-                <div class="architecture">
-
-                    <h4>
-                        MERN Architecture
-                    </h4>
-
-                    <div class="arch-box">
-
-                        <strong>
-                            React Frontend
-                        </strong>
-
-                        <small>
-                            UI / Dashboard
-                        </small>
-
-                    </div>
-
-                    <div class="arrow">
-                        REST API ↓
-                    </div>
-
-                    <div class="arch-box">
-
-                        <strong>
-                            Node.js + Express
-                        </strong>
-
-                        <small>
-                            Backend / API
-                        </small>
-
-                    </div>
-
-                    <div class="arrow">
-                        Mongoose ↓
-                    </div>
-
-                    <div class="arch-box">
-
-                        <strong>
-                            MongoDB
-                        </strong>
-
-                        <small>
-                            Database
-                        </small>
-
-                    </div>
-
-                </div>
-
-            </article>
-
-        </section>
-
-
-        <!-- =========================
-             APPLICATION FLOW
-        ========================== -->
-
-        <section class="section">
-
-            <div class="section-heading">
-
-                <span>04.</span>
-
-                <h2>Blood Donation App Flow</h2>
-
-            </div>
-
-
-            <div class="info-card flow-card">
-
-                <div class="flow">
-
-                    <div class="flow-item">
-                        <strong>01</strong>
-                        <span>User</span>
-                    </div>
-
-                    <div class="flow-arrow">
-                        →
-                    </div>
-
-                    <div class="flow-item">
-                        <strong>02</strong>
-                        <span>React Frontend</span>
-                    </div>
-
-                    <div class="flow-arrow">
-                        →
-                    </div>
-
-                    <div class="flow-item">
-                        <strong>03</strong>
-                        <span>API Request</span>
-                    </div>
-
-                    <div class="flow-arrow">
-                        →
-                    </div>
-
-                    <div class="flow-item">
-                        <strong>04</strong>
-                        <span>Express Server</span>
-                    </div>
-
-                    <div class="flow-arrow">
-                        →
-                    </div>
-
-                    <div class="flow-item">
-                        <strong>05</strong>
-                        <span>MongoDB</span>
-                    </div>
-
-                    <div class="flow-arrow">
-                        →
-                    </div>
-
-                    <div class="flow-item">
-                        <strong>06</strong>
-                        <span>React UI</span>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             GETTING STARTED
-        ========================== -->
-
-        <section class="section">
-
-            <div class="section-heading">
-
-                <span>05.</span>
-
-                <h2>Getting Started</h2>
-
-            </div>
-
-
-            <div class="two-col">
-
-                <div class="info-card">
-
-                    <h3>
-                        01. Clone Repository
-                    </h3>
-
-                    <p>
-                        Clone the project from GitHub.
-                    </p>
-
-                    <code>
-                        git clone
-                        https://github.com/rajeshchowke4/portfolio
-                    </code>
-
-                </div>
-
-
-                <div class="info-card">
-
-                    <h3>
-                        02. Navigate
-                    </h3>
-
-                    <p>
-                        Navigate into the project directory.
-                    </p>
-
-                    <code>
-                        cd portfolio
-                    </code>
-
-                </div>
-
-
-                <div class="info-card">
-
-                    <h3>
-                        03. Install Dependencies
-                    </h3>
-
-                    <p>
-                        Install the required packages.
-                    </p>
-
-                    <code>
-                        npm install
-                    </code>
-
-                </div>
-
-
-                <div class="info-card">
-
-                    <h3>
-                        04. Environment Variables
-                    </h3>
-
-                    <p>
-                        Create your environment file.
-                    </p>
-
-                    <code>
-                        cp .env.example .env
-                    </code>
-
-                </div>
-
-
-                <div class="info-card">
-
-                    <h3>
-                        05. Start Server
-                    </h3>
-
-                    <p>
-                        Run the development server.
-                    </p>
-
-                    <code>
-                        npm run dev
-                    </code>
-
-                </div>
-
-
-                <div class="info-card">
-
-                    <h3>
-                        06. Local Application
-                    </h3>
-
-                    <p>
-                        Open the application in your browser.
-                    </p>
-
-                    <code>
-                        http://localhost:3000
-                    </code>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             TESTING & CI/CD
-        ========================== -->
-
-        <section class="section">
-
-            <div class="section-heading">
-
-                <span>06.</span>
-
-                <h2>Testing & CI/CD</h2>
-
-            </div>
-
-
-            <div class="two-col">
-
-                <div class="info-card">
-
-                    <div class="large-icon">
-                        🧪
-                    </div>
-
-                    <h3>
-                        Automated Testing
-                    </h3>
-
-                    <p>
-                        The project includes unit and integration
-                        testing using modern JavaScript testing tools.
-                    </p>
-
-                    <div class="tags">
-
-                        <span>Jest</span>
-                        <span>Supertest</span>
-                        <span>React Testing Library</span>
-
-                    </div>
-
-                    <div class="command">
-                        npm test
-                    </div>
-
-                </div>
-
-
-                <div class="info-card">
-
-                    <div class="large-icon">
-                        ⚙️
-                    </div>
-
-                    <h3>
-                        CI/CD Pipeline
-                    </h3>
-
-                    <p>
-                        GitHub Actions is configured to automate
-                        testing and deployment workflows.
-                    </p>
-
-                    <div class="pipeline">
-
-                        <span>Git Push</span>
-                        <b>↓</b>
-                        <span>GitHub Actions</span>
-                        <b>↓</b>
-                        <span>Install Dependencies</span>
-                        <b>↓</b>
-                        <span>Run Tests</span>
-                        <b>↓</b>
-                        <span>Build / Deploy</span>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             LEARNING
-        ========================== -->
-
-        <section class="section" id="learning">
-
-            <div class="section-heading">
-
-                <span>07.</span>
-
-                <h2>What I Learned</h2>
-
-            </div>
-
-
-            <div class="learning-grid">
-
-                <div>
-                    Building full-stack applications
-                </div>
-
-                <div>
-                    Designing REST APIs
-                </div>
-
-                <div>
-                    MySQL & MongoDB
-                </div>
-
-                <div>
-                    React & Express integration
-                </div>
-
-                <div>
-                    Authentication & JWT
-                </div>
-
-                <div>
-                    Role-based authorization
-                </div>
-
-                <div>
-                    CRUD operations
-                </div>
-
-                <div>
-                    Automated testing
-                </div>
-
-                <div>
-                    Git & GitHub
-                </div>
-
-                <div>
-                    CI/CD workflows
-                </div>
-
-                <div>
-                    Docker
-                </div>
-
-                <div>
-                    Web deployment
-                </div>
-
-                <div>
-                    Responsive UI development
-                </div>
-
-                <div>
-                    Database management
-                </div>
-
-                <div>
-                    Real-world project development
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             FUTURE IMPROVEMENTS
-        ========================== -->
-
-        <section class="section">
-
-            <div class="section-heading">
-
-                <span>08.</span>
-
-                <h2>Future Improvements</h2>
-
-            </div>
-
-
-            <div class="two-col">
-
-                <div class="info-card">
-
-                    <h3>
-                        Product Management
-                    </h3>
-
-                    <ul class="improvement-list">
-
-                        <li>Add pagination</li>
-                        <li>Add role-based authentication</li>
-                        <li>Add Cypress E2E testing</li>
-                        <li>Improve UI/UX</li>
-                        <li>Add advanced product filtering</li>
-
-                    </ul>
-
-                </div>
-
-
-                <div class="info-card">
-
-                    <h3>
-                        Blood Donation System
-                    </h3>
-
-                    <ul class="improvement-list">
-
-                        <li>Add blood inventory management</li>
-                        <li>Add email notifications</li>
-                        <li>Add donor eligibility management</li>
-                        <li>Improve Docker production setup</li>
-                        <li>Add Kubernetes deployment</li>
-
-                    </ul>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             CONTACT
-        ========================== -->
-
-        <section
-            class="section"
-            id="contact"
-        >
-
-            <div class="contact-box">
-
-                <p class="eyebrow">
-                    GET IN TOUCH
-                </p>
-
-                <h2>
-                    Let's Connect
-                </h2>
-
-                <p>
-                    I'm currently focused on improving my
-                    full-stack development skills and building
-                    real-world projects.
-                </p>
-
-                <div class="buttons">
-
-                    <a
-                        href="mailto:rajeshchouke4@example.com"
-                        class="btn primary"
-                    >
-                        📧 Email Me
-                    </a>
-
-                    <a
-                        href="https://linkedin.com/in/rajeshchowke"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="btn secondary"
-                    >
-                        💼 LinkedIn
-                    </a>
-
-                    <a
-                        href="https://github.com/rajeshchowke4"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="btn secondary"
-                    >
-                        🐙 GitHub
-                    </a>
 
                 </div>
 
@@ -1189,28 +1124,23 @@
     </main>
 
 
-    <!-- =========================
-         FOOTER
-    ========================== -->
+
+    <!-- ================= FOOTER ================= -->
 
     <footer>
 
-        <div>
-            © <span id="year"></span>
-            Rajesh Chowke
-        </div>
+        <div class="container footer-container">
 
-        <div>
-            Junior Full-Stack Developer
-        </div>
+            <p>
+                © <span id="year"></span>
+                Rajesh Chowke. All rights reserved.
+            </p>
 
-        <a
-            href="https://github.com/rajeshchowke4"
-            target="_blank"
-            rel="noopener noreferrer"
-        >
-            GitHub ↗
-        </a>
+            <p>
+                Built with HTML, CSS & JavaScript.
+            </p>
+
+        </div>
 
     </footer>
 
@@ -1218,4 +1148,5 @@
     <script src="script.js"></script>
 
 </body>
+
 </html>
