@@ -8,7 +8,9 @@ I enjoy working with **React, Node.js, Express, databases, REST APIs, Docker, an
 
 ---
 
-## 🚀 Featured Project — CRUD Product Management App
+# 🚀 Featured Projects
+
+## 1. CRUD Product Management App
 
 A full-stack product management application built to demonstrate my skills in **frontend development, backend APIs, database management, authentication, testing, and deployment**.
 
@@ -25,13 +27,159 @@ A full-stack product management application built to demonstrate my skills in **
 * 🧪 Automated testing
 * 🚀 CI/CD using GitHub Actions
 
+### 🛠️ Technologies
+
+* React
+* React Router
+* Tailwind CSS
+* Node.js
+* Express.js
+* REST API
+* MySQL
+* Jest
+* React Testing Library
+* Supertest
+* Docker
+* GitHub Actions
+
 ---
 
-## 🛠️ Tech Stack
+## 2. 🩸 Blood Donation Management System
+
+A full-stack **Blood Donation Management System** developed using the **MERN Stack**. The application is designed to help manage blood donors, blood requests, users, and donation-related information through a centralized web application.
+
+### ✨ Features
+
+* 👤 User registration and login
+* 🔐 Secure authentication
+* 🩸 Blood donor management
+* 📋 Blood donation requests
+* 🔎 Search and filter donors
+* 🏥 Manage blood requests
+* 📊 Dashboard for managing information
+* 👨‍💼 Admin management
+* 🔑 Role-based access control
+* 🗄️ MongoDB database
+* 🔗 REST API
+* 📱 Responsive user interface
+
+### 🛠️ Tech Stack
+
+#### Frontend
+
+* React.js
+* JavaScript
+* HTML5
+* CSS3
+* React Router
+
+#### Backend
+
+* Node.js
+* Express.js
+* REST API
+
+#### Database
+
+* MongoDB
+* MongoDB Atlas
+
+#### Authentication & Security
+
+* JWT
+* Password authentication
+* Role-based authorization
+
+#### Development Tools
+
+* Git
+* GitHub
+* VS Code
+* npm
+* Vite
+
+### 🏗️ Architecture
+
+```text
+┌──────────────────────────┐
+│       React Frontend     │
+│                          │
+│  Login / Register        │
+│  Donor Management        │
+│  Blood Requests          │
+│  Dashboard               │
+└────────────┬─────────────┘
+             │
+             │ REST API
+             ▼
+┌──────────────────────────┐
+│    Node.js + Express     │
+│         Backend          │
+│                          │
+│ Authentication           │
+│ Business Logic           │
+│ API Routes               │
+└────────────┬─────────────┘
+             │
+             │ Mongoose
+             ▼
+┌──────────────────────────┐
+│        MongoDB           │
+│                          │
+│ Users                    │
+│ Donors                   │
+│ Blood Requests           │
+│ Other Application Data   │
+└──────────────────────────┘
+```
+
+### 🔄 Application Flow
+
+```text
+User
+  ↓
+React Frontend
+  ↓
+API Request
+  ↓
+Express.js Server
+  ↓
+Authentication / Validation
+  ↓
+MongoDB
+  ↓
+Response
+  ↓
+React UI
+```
+
+### 📌 Project Purpose
+
+The main goal of this project is to provide a digital platform for managing blood donation activities and making donor and blood-request information easier to organize.
+
+This project helped me gain practical experience in:
+
+* Building MERN stack applications
+* Creating REST APIs
+* Working with MongoDB
+* Connecting React with Express APIs
+* User authentication
+* JWT-based authorization
+* Role-based access control
+* CRUD operations
+* Managing application state
+* Building responsive interfaces
+
+---
+
+## 🛠️ Overall Tech Stack
 
 ### Frontend
 
-* React
+* React.js
+* JavaScript
+* HTML5
+* CSS3
 * React Router
 * Tailwind CSS
 
@@ -39,11 +187,18 @@ A full-stack product management application built to demonstrate my skills in **
 
 * Node.js
 * Express.js
-* REST API
+* REST APIs
 
-### Database
+### Databases
 
 * MySQL
+* MongoDB
+* MongoDB Atlas
+
+### Authentication
+
+* JWT
+* Role-Based Access Control
 
 ### Testing
 
@@ -54,13 +209,16 @@ A full-stack product management application built to demonstrate my skills in **
 ### DevOps & Tools
 
 * Docker
-* GitHub Actions
 * Git
 * GitHub
+* GitHub Actions
+* VS Code
+* npm
+* Vite
 
 ---
 
-## 🏗️ Architecture
+## 🏗️ CRUD Project Architecture
 
 ```text
 ┌──────────────────────┐
@@ -85,18 +243,18 @@ A full-stack product management application built to demonstrate my skills in **
 
 ---
 
-## 💻 Getting Started
+## 💻 Getting Started — CRUD Project
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/rajeshchowke4/first-job-portfolio.git
+git clone https://github.com/rajeshchowke4/portfolio
 ```
 
 ### 2. Navigate to the project
 
 ```bash
-cd first-job-portfolio
+cd portfolio
 ```
 
 ### 3. Install dependencies
@@ -129,28 +287,33 @@ http://localhost:3000
 
 ---
 
-## 🌐 Live Demo
+## 🌐 Live Portfolio
 
-**Live Demo:**
-https://rajeshchowke4.github.io/portfolio/
-
-> Replace the above URL with your actual deployed application.
+🚀 **[Visit My Live Portfolio](https://rajeshchowke4.github.io/portfolio/)**
 
 ---
 
 ## 📸 Screenshots
 
-Add screenshots of your application inside the `assets` folder.
+Add screenshots of your applications inside the `assets` folder.
+
+### CRUD Product Management App
 
 ```markdown
-![CRUD App Screenshot](./assets/screenshot.png)
+![CRUD App Screenshot](./assets/crud-screenshot.png)
+```
+
+### Blood Donation Management System
+
+```markdown
+![Blood Donation System Screenshot](./assets/blood-donation-screenshot.png)
 ```
 
 ---
 
 ## 🧪 Testing
 
-The project includes unit and integration tests using:
+The CRUD project includes unit and integration tests using:
 
 * Jest
 * Supertest
@@ -184,18 +347,22 @@ Build / Deploy
 
 ## 📚 What I Learned
 
-Through this project, I learned:
+Through these projects, I learned:
 
-* How to build a complete full-stack application
+* How to build full-stack web applications
 * Designing and developing REST APIs
-* Connecting a backend to a relational database
+* Working with MySQL and MongoDB
+* Connecting React applications with backend APIs
 * Implementing authentication
+* Implementing JWT authorization
+* Role-based access control
 * CRUD operations
 * Writing automated tests
 * Using Git and GitHub effectively
 * Creating CI/CD workflows
 * Containerizing applications with Docker
 * Deploying web applications
+* Building responsive user interfaces
 
 ---
 
@@ -206,6 +373,9 @@ Through this project, I learned:
 * [ ] Add Cypress E2E testing
 * [ ] Improve UI/UX
 * [ ] Add advanced product filtering
+* [ ] Add blood inventory management
+* [ ] Add email notifications
+* [ ] Add donor eligibility management
 * [ ] Improve Docker production setup
 * [ ] Add Kubernetes deployment
 
@@ -221,26 +391,26 @@ I'm currently focused on improving my full-stack development skills and building
 ### 📫 Contact
 
 * 📧 Email: [rajeshchouke4@example.com](mailto:rajeshchouke4@example.com)
-* 💼 LinkedIn: https://linkedin.com/in/rajeshchowke
-* 📄 Resume: [View Resume](./resume.pdf)
-
----
-
-## 📂 Other Projects
-
-Check out my GitHub repositories for more projects involving:
-
-* React
-* JavaScript
-* Node.js
-* Express.js
-* Python
-* Flutter
-* MongoDB
-* MySQL
-
----
-
-## 📄 License
-
+* 💼 LinkedIn: https://linkedin.com/in/rajeshchowke 
+* 📄 Resume: [View Resume](./resume.pdf) 
+ 
+--- 
+ 
+## 📂 Other Projects 
+ 
+Check out my GitHub repositories for more projects involving: 
+ 
+* React 
+* JavaScript 
+* Node.js 
+* Express.js 
+* Python 
+* Flutter 
+* MongoDB 
+* MySQL 
+ 
+--- 
+ 
+## 📄 License 
+ 
 This project is licensed under the **MIT License**.
