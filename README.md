@@ -132,7 +132,7 @@ http://localhost:3000
 ## 🌐 Live Demo
 
 **Live Demo:**
-https://your-demo-url.example.com
+https://rajeshchowke4.github.io/portfolio/
 
 > Replace the above URL with your actual deployed application.
 
