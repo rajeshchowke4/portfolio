@@ -579,13 +579,13 @@ Add screenshots of your applications inside the `assets` folder.
 ### Blood Donation Management System
 
 ```markdown
-![Blood Donation System Screenshot](./assets/blood-donation-screenshot.png)
+![Blood Donation System Screenshot](./assets/blood-donation-system.png)
 ```
 
 ### ResqOps
 
 ```markdown
-![ResqOps Screenshot](./assets/resqops-screenshot.png)
+![ResqOps Screenshot](./assets/resqops.png)
 ```
 
 ---
