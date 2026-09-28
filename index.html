@@ -13,7 +13,12 @@
         content="Rajesh Chowke - Junior Full-Stack Developer Portfolio"
     >
 
-    <title>Rajesh Chowke | Full-Stack Developer</title>
+    <meta
+        name="author"
+        content="Rajesh Chowke"
+    >
+
+    <title>Rajesh Chowke | Junior Full-Stack Developer</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -44,13 +49,17 @@
         <button
             class="menu"
             id="menuBtn"
-            aria-label="Open navigation menu"
+            aria-label="Toggle navigation"
         >
             ☰
         </button>
 
     </header>
 
+
+    <!-- =========================
+         MAIN
+    ========================== -->
 
     <main>
 
@@ -72,9 +81,15 @@
                 </h1>
 
                 <p class="hero-text">
-                    I'm an aspiring Full-Stack Developer passionate about
-                    building modern web applications and learning
-                    software development practices.
+                    I'm an aspiring Full-Stack Developer passionate
+                    about building web applications and learning
+                    modern software development practices.
+                </p>
+
+                <p class="hero-text">
+                    I enjoy working with
+                    <strong>React, Node.js, Express, databases,
+                    REST APIs, Docker, and GitHub Actions.</strong>
                 </p>
 
                 <div class="buttons">
@@ -89,6 +104,7 @@
                     <a
                         href="https://github.com/rajeshchowke4"
                         target="_blank"
+                        rel="noopener noreferrer"
                         class="btn secondary"
                     >
                         GitHub
@@ -108,6 +124,7 @@
                     <a
                         href="https://github.com/rajeshchowke4"
                         target="_blank"
+                        rel="noopener noreferrer"
                     >
                         GitHub ↗
                     </a>
@@ -115,6 +132,7 @@
                     <a
                         href="https://linkedin.com/in/rajeshchowke"
                         target="_blank"
+                        rel="noopener noreferrer"
                     >
                         LinkedIn ↗
                     </a>
@@ -124,7 +142,7 @@
             </div>
 
 
-            <!-- Developer terminal -->
+            <!-- Developer Terminal -->
 
             <div class="hero-card">
 
@@ -138,7 +156,7 @@
 
                 <pre><code><span class="pink">const</span> developer = {
     name: <span class="green">"Rajesh Chowke"</span>,
-    role: <span class="green">"Full-Stack Developer"</span>,
+    role: <span class="green">"Junior Full-Stack Developer"</span>,
 
     frontend: [
         <span class="green">"React"</span>,
@@ -157,7 +175,13 @@
         <span class="green">"MongoDB"</span>
     ],
 
-    currentlyLearning: <span class="green">"Full-Stack Development"</span>
+    tools: [
+        <span class="green">"Git"</span>,
+        <span class="green">"Docker"</span>,
+        <span class="green">"GitHub Actions"</span>
+    ],
+
+    learning: <span class="green">"Full-Stack Development"</span>
 };</code></pre>
 
             </div>
@@ -179,15 +203,14 @@
 
             </div>
 
-
             <div class="about-grid">
 
-                <div>
+                <div class="about-content">
 
                     <p>
                         I'm an aspiring Junior Full-Stack Developer
-                        passionate about creating useful and responsive
-                        web applications.
+                        passionate about creating useful, responsive,
+                        and modern web applications.
                     </p>
 
                     <p>
@@ -197,9 +220,10 @@
                     </p>
 
                     <p>
-                        My goal is to continuously improve my technical
-                        skills by building real-world projects and
-                        learning modern software development practices.
+                        I'm currently focused on improving my
+                        full-stack development skills by building
+                        real-world projects and learning modern
+                        software development practices.
                     </p>
 
                 </div>
@@ -207,19 +231,34 @@
 
                 <div class="stats">
 
-                    <div>
+                    <div class="stat-card">
+
                         <strong>2+</strong>
-                        <span>Featured Projects</span>
+
+                        <span>
+                            Featured Projects
+                        </span>
+
                     </div>
 
-                    <div>
+                    <div class="stat-card">
+
                         <strong>MERN</strong>
-                        <span>Stack</span>
+
+                        <span>
+                            Stack
+                        </span>
+
                     </div>
 
-                    <div>
+                    <div class="stat-card">
+
                         <strong>REST</strong>
-                        <span>API Development</span>
+
+                        <span>
+                            API Development
+                        </span>
+
                     </div>
 
                 </div>
@@ -243,10 +282,15 @@
 
             </div>
 
-
             <div class="skill-grid">
 
-                <article>
+                <!-- Frontend -->
+
+                <article class="skill-card">
+
+                    <div class="skill-icon">
+                        ⚛️
+                    </div>
 
                     <h3>Frontend</h3>
 
@@ -264,7 +308,13 @@
                 </article>
 
 
-                <article>
+                <!-- Backend -->
+
+                <article class="skill-card">
+
+                    <div class="skill-icon">
+                        🟢
+                    </div>
 
                     <h3>Backend</h3>
 
@@ -279,7 +329,13 @@
                 </article>
 
 
-                <article>
+                <!-- Database -->
+
+                <article class="skill-card">
+
+                    <div class="skill-icon">
+                        🗄️
+                    </div>
 
                     <h3>Databases</h3>
 
@@ -294,7 +350,13 @@
                 </article>
 
 
-                <article>
+                <!-- Authentication -->
+
+                <article class="skill-card">
+
+                    <div class="skill-icon">
+                        🔐
+                    </div>
 
                     <h3>Authentication</h3>
 
@@ -310,7 +372,13 @@
                 </article>
 
 
-                <article>
+                <!-- Testing -->
+
+                <article class="skill-card">
+
+                    <div class="skill-icon">
+                        🧪
+                    </div>
 
                     <h3>Testing</h3>
 
@@ -325,7 +393,13 @@
                 </article>
 
 
-                <article>
+                <!-- Tools -->
+
+                <article class="skill-card">
+
+                    <div class="skill-icon">
+                        🛠️
+                    </div>
 
                     <h3>DevOps & Tools</h3>
 
@@ -362,7 +436,9 @@
             </div>
 
 
-            <!-- PROJECT 1 -->
+            <!-- =========================
+                 PROJECT 1
+            ========================== -->
 
             <article class="project-card">
 
@@ -372,35 +448,48 @@
                         PROJECT 01
                     </p>
 
-                    <h3>CRUD Product Management App</h3>
+                    <h3>
+                        CRUD Product Management App
+                    </h3>
 
-                    <p>
+                    <p class="project-description">
                         A full-stack product management application
-                        demonstrating frontend development, backend APIs,
-                        database management, authentication, testing,
-                        and deployment.
+                        built to demonstrate frontend development,
+                        backend APIs, database management,
+                        authentication, testing, and deployment.
                     </p>
 
 
+                    <h4>Features</h4>
+
                     <div class="feature-list">
 
-                        <span>🔐 Authentication</span>
-                        <span>📦 CRUD Operations</span>
-                        <span>🔎 Search</span>
-                        <span>🔑 JWT</span>
+                        <span>🔐 User Signup & Login</span>
+                        <span>📦 Create Products</span>
+                        <span>📋 View Products</span>
+                        <span>✏️ Update Products</span>
+                        <span>🗑️ Delete Products</span>
+                        <span>🔎 Search & Filter</span>
+                        <span>🔑 JWT Authentication</span>
                         <span>✅ Validation</span>
-                        <span>🧪 Testing</span>
+                        <span>🧪 Automated Testing</span>
                         <span>🚀 CI/CD</span>
 
                     </div>
 
 
+                    <h4>Technologies</h4>
+
                     <div class="tags">
 
                         <span>React</span>
+                        <span>React Router</span>
+                        <span>Tailwind CSS</span>
                         <span>Node.js</span>
-                        <span>Express</span>
+                        <span>Express.js</span>
+                        <span>REST API</span>
                         <span>MySQL</span>
+                        <span>Jest</span>
                         <span>Docker</span>
                         <span>GitHub Actions</span>
 
@@ -412,9 +501,10 @@
                         <a
                             href="https://github.com/rajeshchowke4/portfolio"
                             target="_blank"
+                            rel="noopener noreferrer"
                             class="btn primary"
                         >
-                            GitHub Repository
+                            View Repository ↗
                         </a>
 
                     </div>
@@ -422,13 +512,17 @@
                 </div>
 
 
+                <!-- Architecture -->
+
                 <div class="architecture">
 
-                    <h4>Architecture</h4>
+                    <h4>
+                        Project Architecture
+                    </h4>
 
                     <div class="arch-box">
 
-                        React App
+                        <strong>React App</strong>
 
                         <small>
                             Frontend / UI
@@ -442,7 +536,9 @@
 
                     <div class="arch-box">
 
-                        Node.js + Express
+                        <strong>
+                            Node.js + Express
+                        </strong>
 
                         <small>
                             Backend
@@ -456,7 +552,7 @@
 
                     <div class="arch-box">
 
-                        MySQL
+                        <strong>MySQL</strong>
 
                         <small>
                             Database
@@ -469,7 +565,9 @@
             </article>
 
 
-            <!-- PROJECT 2 -->
+            <!-- =========================
+                 PROJECT 2
+            ========================== -->
 
             <article class="project-card project-two">
 
@@ -483,36 +581,45 @@
                         🩸 Blood Donation Management System
                     </h3>
 
-                    <p>
+                    <p class="project-description">
                         A full-stack Blood Donation Management System
-                        developed using the MERN stack. The application
-                        helps manage donors, users, blood requests,
-                        authentication, and donation-related information.
+                        developed using the MERN Stack. The application
+                        provides a centralized platform for managing
+                        users, donors, blood requests, authentication,
+                        and donation-related information.
                     </p>
 
+
+                    <h4>Features</h4>
 
                     <div class="feature-list">
 
                         <span>👤 User Registration</span>
-                        <span>🔐 Authentication</span>
+                        <span>🔐 Secure Authentication</span>
                         <span>🩸 Donor Management</span>
                         <span>📋 Blood Requests</span>
                         <span>🔎 Search & Filter</span>
+                        <span>🏥 Request Management</span>
                         <span>📊 Dashboard</span>
-                        <span>👨‍💼 Admin</span>
-                        <span>🔑 RBAC</span>
+                        <span>👨‍💼 Admin Management</span>
+                        <span>🔑 Role-Based Access</span>
+                        <span>📱 Responsive UI</span>
 
                     </div>
 
 
-                    <h4>Technologies</h4>
+                    <h4>Tech Stack</h4>
 
                     <div class="tags">
 
                         <span>React.js</span>
                         <span>JavaScript</span>
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>React Router</span>
                         <span>Node.js</span>
                         <span>Express.js</span>
+                        <span>REST API</span>
                         <span>MongoDB</span>
                         <span>MongoDB Atlas</span>
                         <span>Mongoose</span>
@@ -527,9 +634,10 @@
                         <a
                             href="https://github.com/rajeshchowke4"
                             target="_blank"
+                            rel="noopener noreferrer"
                             class="btn primary"
                         >
-                            GitHub
+                            View on GitHub ↗
                         </a>
 
                     </div>
@@ -537,13 +645,19 @@
                 </div>
 
 
+                <!-- Architecture -->
+
                 <div class="architecture">
 
-                    <h4>Architecture</h4>
+                    <h4>
+                        MERN Architecture
+                    </h4>
 
                     <div class="arch-box">
 
-                        React Frontend
+                        <strong>
+                            React Frontend
+                        </strong>
 
                         <small>
                             UI / Dashboard
@@ -557,10 +671,12 @@
 
                     <div class="arch-box">
 
-                        Node.js + Express
+                        <strong>
+                            Node.js + Express
+                        </strong>
 
                         <small>
-                            Backend
+                            Backend / API
                         </small>
 
                     </div>
@@ -571,7 +687,9 @@
 
                     <div class="arch-box">
 
-                        MongoDB
+                        <strong>
+                            MongoDB
+                        </strong>
 
                         <small>
                             Database
@@ -601,25 +719,59 @@
             </div>
 
 
-            <div class="info-card">
+            <div class="info-card flow-card">
 
-                <div class="pipeline">
+                <div class="flow">
 
-                    User
-                    →
-                    React Frontend
-                    →
-                    API Request
-                    →
-                    Express.js Server
-                    →
-                    Authentication / Validation
-                    →
-                    MongoDB
-                    →
-                    Response
-                    →
-                    React UI
+                    <div class="flow-item">
+                        <strong>01</strong>
+                        <span>User</span>
+                    </div>
+
+                    <div class="flow-arrow">
+                        →
+                    </div>
+
+                    <div class="flow-item">
+                        <strong>02</strong>
+                        <span>React Frontend</span>
+                    </div>
+
+                    <div class="flow-arrow">
+                        →
+                    </div>
+
+                    <div class="flow-item">
+                        <strong>03</strong>
+                        <span>API Request</span>
+                    </div>
+
+                    <div class="flow-arrow">
+                        →
+                    </div>
+
+                    <div class="flow-item">
+                        <strong>04</strong>
+                        <span>Express Server</span>
+                    </div>
+
+                    <div class="flow-arrow">
+                        →
+                    </div>
+
+                    <div class="flow-item">
+                        <strong>05</strong>
+                        <span>MongoDB</span>
+                    </div>
+
+                    <div class="flow-arrow">
+                        →
+                    </div>
+
+                    <div class="flow-item">
+                        <strong>06</strong>
+                        <span>React UI</span>
+                    </div>
 
                 </div>
 
@@ -647,7 +799,9 @@
 
                 <div class="info-card">
 
-                    <h3>Clone Repository</h3>
+                    <h3>
+                        01. Clone Repository
+                    </h3>
 
                     <p>
                         Clone the project from GitHub.
@@ -663,11 +817,29 @@
 
                 <div class="info-card">
 
-                    <h3>Install Dependencies</h3>
+                    <h3>
+                        02. Navigate
+                    </h3>
 
                     <p>
-                        Navigate into the project and install
-                        the required packages.
+                        Navigate into the project directory.
+                    </p>
+
+                    <code>
+                        cd portfolio
+                    </code>
+
+                </div>
+
+
+                <div class="info-card">
+
+                    <h3>
+                        03. Install Dependencies
+                    </h3>
+
+                    <p>
+                        Install the required packages.
                     </p>
 
                     <code>
@@ -679,11 +851,12 @@
 
                 <div class="info-card">
 
-                    <h3>Environment Variables</h3>
+                    <h3>
+                        04. Environment Variables
+                    </h3>
 
                     <p>
-                        Create a .env file using .env.example
-                        and configure your database and JWT secret.
+                        Create your environment file.
                     </p>
 
                     <code>
@@ -695,14 +868,33 @@
 
                 <div class="info-card">
 
-                    <h3>Run Development Server</h3>
+                    <h3>
+                        05. Start Server
+                    </h3>
 
                     <p>
-                        Start the application using the development command.
+                        Run the development server.
                     </p>
 
                     <code>
                         npm run dev
+                    </code>
+
+                </div>
+
+
+                <div class="info-card">
+
+                    <h3>
+                        06. Local Application
+                    </h3>
+
+                    <p>
+                        Open the application in your browser.
+                    </p>
+
+                    <code>
+                        http://localhost:3000
                     </code>
 
                 </div>
@@ -731,7 +923,13 @@
 
                 <div class="info-card">
 
-                    <h3>🧪 Testing</h3>
+                    <div class="large-icon">
+                        🧪
+                    </div>
+
+                    <h3>
+                        Automated Testing
+                    </h3>
 
                     <p>
                         The project includes unit and integration
@@ -746,35 +944,39 @@
 
                     </div>
 
-                    <br>
-
-                    <code>
+                    <div class="command">
                         npm test
-                    </code>
+                    </div>
 
                 </div>
 
 
                 <div class="info-card">
 
-                    <h3>⚙️ CI/CD</h3>
+                    <div class="large-icon">
+                        ⚙️
+                    </div>
+
+                    <h3>
+                        CI/CD Pipeline
+                    </h3>
 
                     <p>
-                        GitHub Actions is used to automate testing
-                        and deployment workflows.
+                        GitHub Actions is configured to automate
+                        testing and deployment workflows.
                     </p>
 
                     <div class="pipeline">
 
-                        Git Push
-                        ↓
-                        GitHub Actions
-                        ↓
-                        Install Dependencies
-                        ↓
-                        Run Tests
-                        ↓
-                        Build / Deploy
+                        <span>Git Push</span>
+                        <b>↓</b>
+                        <span>GitHub Actions</span>
+                        <b>↓</b>
+                        <span>Install Dependencies</span>
+                        <b>↓</b>
+                        <span>Run Tests</span>
+                        <b>↓</b>
+                        <span>Build / Deploy</span>
 
                     </div>
 
@@ -807,11 +1009,15 @@
                 </div>
 
                 <div>
-                    REST API development
+                    Designing REST APIs
                 </div>
 
                 <div>
                     MySQL & MongoDB
+                </div>
+
+                <div>
+                    React & Express integration
                 </div>
 
                 <div>
@@ -850,6 +1056,14 @@
                     Responsive UI development
                 </div>
 
+                <div>
+                    Database management
+                </div>
+
+                <div>
+                    Real-world project development
+                </div>
+
             </div>
 
         </section>
@@ -874,22 +1088,38 @@
 
                 <div class="info-card">
 
-                    <p>✓ Add pagination</p>
-                    <p>✓ Add role-based authentication</p>
-                    <p>✓ Add Cypress E2E testing</p>
-                    <p>✓ Improve UI/UX</p>
-                    <p>✓ Add advanced product filtering</p>
+                    <h3>
+                        Product Management
+                    </h3>
+
+                    <ul class="improvement-list">
+
+                        <li>Add pagination</li>
+                        <li>Add role-based authentication</li>
+                        <li>Add Cypress E2E testing</li>
+                        <li>Improve UI/UX</li>
+                        <li>Add advanced product filtering</li>
+
+                    </ul>
 
                 </div>
 
 
                 <div class="info-card">
 
-                    <p>✓ Blood inventory management</p>
-                    <p>✓ Email notifications</p>
-                    <p>✓ Donor eligibility management</p>
-                    <p>✓ Improve Docker production setup</p>
-                    <p>✓ Kubernetes deployment</p>
+                    <h3>
+                        Blood Donation System
+                    </h3>
+
+                    <ul class="improvement-list">
+
+                        <li>Add blood inventory management</li>
+                        <li>Add email notifications</li>
+                        <li>Add donor eligibility management</li>
+                        <li>Improve Docker production setup</li>
+                        <li>Add Kubernetes deployment</li>
+
+                    </ul>
 
                 </div>
 
@@ -913,14 +1143,15 @@
                     GET IN TOUCH
                 </p>
 
-                <h2>Let's Connect</h2>
+                <h2>
+                    Let's Connect
+                </h2>
 
                 <p>
                     I'm currently focused on improving my
                     full-stack development skills and building
                     real-world projects.
                 </p>
-
 
                 <div class="buttons">
 
@@ -934,6 +1165,7 @@
                     <a
                         href="https://linkedin.com/in/rajeshchowke"
                         target="_blank"
+                        rel="noopener noreferrer"
                         class="btn secondary"
                     >
                         💼 LinkedIn
@@ -942,6 +1174,7 @@
                     <a
                         href="https://github.com/rajeshchowke4"
                         target="_blank"
+                        rel="noopener noreferrer"
                         class="btn secondary"
                     >
                         🐙 GitHub
@@ -962,13 +1195,19 @@
 
     <footer>
 
-        <span>
-            © <span id="year"></span> Rajesh Chowke
-        </span>
+        <div>
+            © <span id="year"></span>
+            Rajesh Chowke
+        </div>
+
+        <div>
+            Junior Full-Stack Developer
+        </div>
 
         <a
             href="https://github.com/rajeshchowke4"
             target="_blank"
+            rel="noopener noreferrer"
         >
             GitHub ↗
         </a>
